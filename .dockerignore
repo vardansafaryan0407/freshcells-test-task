@@ -1,6 +1,37 @@
+# Dependencies
 node_modules
+
+# Build output
 dist
+dist-ssr
+
+# Git
 .git
+.gitignore
+
+# Environment
 .env
+.env.local
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Testing
 coverage
+.nyc_output
+
+# Docs
+README.md
+*.md
+
+# IDE
+.idea
+.vscode
+
+# CI/CD
+.github
+.gitlab-ci.yml
+
+# Logs
+*.log
