@@ -87,3 +87,12 @@ If you prefer to run the application without Docker:
 - React Router
 - i18next
 - Vitest (Testing)
+
+## Possible Improvements
+
+- **E2E Testing**: Add Playwright or Cypress tests
+- **Test Coverage**: Increase coverage and add reporting
+- **Lighthouse Optimization**: Improve performance scores (PWA, accessibility metrics)
+- **CI/CD**: GitHub Actions for automated testing and deployment
+- **Error Monitoring**: Integrate Sentry for production error tracking
+- **Storybook**: Component documentation and visual testing
