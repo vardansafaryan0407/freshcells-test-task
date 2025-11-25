@@ -1,0 +1,23 @@
+.form {
+    composes: card card-sm from global;
+}
+
+.title {
+    composes: page-title title-center from global;
+}
+
+.errorBanner {
+    padding: var(--spacing-md);
+    background-color: rgba(255, 77, 79, 0.1);
+    border: 1px solid var(--color-error);
+    border-radius: var(--radius-md);
+    color: var(--color-error);
+    margin-bottom: var(--spacing-md);
+    font-size: var(--font-size-sm);
+    text-align: center;
+}
+
+.submitButton {
+    width: 100%;
+    margin-top: var(--spacing-md);
+}

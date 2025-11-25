@@ -1,0 +1,39 @@
+.container {
+    composes: page-container from global;
+}
+
+.card {
+    composes: card card-md from global;
+}
+
+.title {
+    composes: page-title title-bordered from global;
+}
+
+.userInfo {
+    composes: flex-column gap-lg from global;
+    margin-bottom: var(--spacing-xl);
+}
+
+.logoutButton {
+    width: 100%;
+    border-color: var(--color-error);
+    color: var(--color-error);
+}
+
+.logoutButton:hover {
+    background-color: rgba(255, 77, 79, 0.05);
+    border-color: var(--color-error);
+}
+
+.centerContainer {
+    composes: flex-center flex-column full-height gap-md from global;
+}
+
+.spinner {
+    composes: spinner from global;
+}
+
+.error {
+    composes: error-text from global;
+}
