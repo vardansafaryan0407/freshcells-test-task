@@ -1,0 +1,8 @@
+{
+    "title": "Account Details",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "logout": "Log Out",
+    "loading": "Loading account..."
+}
